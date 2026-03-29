@@ -16,3 +16,13 @@
 - Jump-robust Truncated Variation (TV)
 - Theoretical and Bootstrap 95% confidence intervals
 - Annualised daily volatility plots
+
+### GMM Estimation for MA(1) and AR(1) Models
+
+- Time series parameter estimation via Generalised Method of Moments
+- Matches three moment conditions: mean, second moment, and first-order autocovariance
+- MA(1) model: mean, variance, and lag-1 autocovariance moments
+- AR(1) model: unconditional moments derived from stationarity conditions
+- Stationarity constraints enforced (|θ| < 1, |φ| < 1) via trust-region optimisation
+- Identity weighting matrix (first-step GMM)
+- Side-by-side summary of both sets of estimates
